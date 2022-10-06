@@ -1,0 +1,8 @@
+.customerMain{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.btn{
+    margin: 0 2% 0 0;
+}

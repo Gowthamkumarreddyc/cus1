@@ -1,0 +1,25 @@
+<app-header></app-header>
+<div class="cst">
+<h3><i class="fas fa-folder-open"></i> Customer Orders</h3>
+<table class="table">
+    <thead >
+      <tr class="bg-primary">
+        <th scope="col">Product</th>
+        <th scope="col">Date</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Unitprice</th>
+        <th scope="col">Total</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let x of customerlist">
+        <td>{{x.product}}</td>
+            <td>{{x.date}}</td>
+            <td>{{x.company.quantity}}</td>
+            <td>{{x.company.unitprice}}</td>
+            <td>{{x.company.total}}</td>
+      </tr>
+      
+    </tbody>
+    </table>
+    </div>

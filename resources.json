@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "firstname": "Kumar",
+      "lastname": "Nagaraja",
+      "email": "kumar@gmail.com",
+      "address": "I-gate",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zipcode": "560066",
+      "id": 1
+    },
+    {
+      "firstname": "",
+      "lastname": "",
+      "email": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "zipcode": "",
+      "id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "goutham@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "email": "arpan@gmail.com",
+      "password": "1234"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
